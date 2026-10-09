@@ -21,7 +21,7 @@ body {
 
 .search-bar1 {
     position: relative;
-    top: 30px;
+    bottom: 20px;
     left: 30px;
     height: 30px;
     border-radius: 20px;
@@ -33,7 +33,7 @@ body {
 .search-icon1 {
     color: grey;
     position: relative;
-    top: 33px;
+    bottom: 20px;
     left: 50px;
     background-color: white;
     height: 30px;
@@ -43,13 +43,23 @@ body {
     padding: 8px;
 }
 
+.sun-img {
+    /* margin: auto; */
+    position: relative;
+    right: 120px;
+    top: 120px;
+    width: 80px;
+    height: 80px;
+}
+
 .weather-temp1 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    top: 100px;
+    top: 105px;
     left: 100px;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 .weather-location1 {
@@ -57,15 +67,32 @@ body {
     font-size: 20px;
     position: relative;
     top: 105px;
-    left: 80px;
+    left: 95px;
+    font-family: sans-serif;
+}
+
+.humidity-img1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 185px;
+    left: 20px;
 }
 
 .humidity-temp1 {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
-    top: 225px;
-    left: 60px;
+    top: 135px;
+    left: 80px;
+}
+
+.wind-img1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 210px;
+    top: 95px;
 }
 
 
@@ -84,7 +111,7 @@ body {
 
 .search-bar2 {
     position: relative;
-    top: 30px;
+    bottom: 15px;
     left: 30px;
     height: 30px;
     border-radius: 20px;
@@ -96,7 +123,7 @@ body {
 .search-icon2 {
     color: grey;
     position: relative;
-    top: 33px;
+    bottom: 15px;
     left: 50px;
     background-color: white;
     height: 30px;
@@ -106,37 +133,76 @@ body {
     padding: 8px;
 }
 
+.moon-img {
+    width: 75px;
+    height: 70px;
+    position: relative;
+    top: 120px;
+    right: 110px;
+}
+
 .weather-temp2 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    top: 100px;
+    top: 110px;
     left: 100px;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 .weather-location2 {
     color: white;
     font-size: 20px;
     position: relative;
-    top: 105px;
+    top: 110px;
     left: 80px;
+    font-family: sans-serif;
 }
 
 .humidity-temp2 {
     color: white;
     font-size: 18px;
     position: relative;
-    top: 225px;
+    top: 200px;
     left: 60px;
+}
+
+.wind-img2 {
+     width: 40px; 
+    height: 40px; 
+    position: relative;
+    top: 155px;
+    left: 200px;
+}
+
+.wind-time {
+    font-size: 17px;
+    position: relative;
+    left: 250px;
+    top: 115px;
+    color: white;
+}
+
+.wind-speed {
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 245px;
+    top: 115px;
 }
 
 
 
 
 .weather-card3 {
-    width: 100px;
-    height: 300px;
+    background: linear-gradient(#8c58d2, #5c43ba, #3732a7);
+    width: 330px;
+    height: 410px;
     background-color: white;
-    z-index: 100px;
+    margin: auto;
+    position: relative;
+    right: 60px;
+    bottom: 665px;
+    border-radius: 20px;
 }
