@@ -9,12 +9,61 @@ body {
     box-sizing: border-box;
 }
 
+.cloud-icon1 {
+    position: relative;
+    right: 0;
+    bottom: 30px;
+    color: white;
+    font-size: 90px;
+    filter: blur(5px);
+}
+
+.cloud-icon2 {
+    position: relative;
+    top: 350px;
+    left: 830px;
+    color: white;
+    font-size: 90px;
+    filter: blur(5px);
+}
+
+.cloud-icon3 {
+    position: relative;
+    top: 450px;
+    left: 100px;
+    color: white;
+    font-size: 90px;
+    filter: blur(5px);
+}
+
+.cloud-icon4 {
+    position: relative;
+    top: 50px;
+    left: 230px;
+    color: white;
+    font-size: 90px;
+    filter: blur(5px);
+}
+
+.cloud-icon5 {
+    position: relative;
+    top: 510px;
+    left: 720px;
+    color: white;
+    font-size: 90px;
+    filter: blur(5px);
+}
+
+
+/* CARD 1 STYLING */
+
+
 .weather-card1 {
     background: linear-gradient(#e3897e, #e29f7f, #dfc07f);
     width: 330px;
     height: 410px;
     position: relative;
-    top: 100px;
+    bottom: 15px;
     left: 180px;
     border-radius: 20px;
 }
@@ -38,13 +87,11 @@ body {
     background-color: white;
     height: 30px;
     width: 30px;
-    /* background-size: 30px; */
     border-radius: 20px;
     padding: 8px;
 }
 
 .sun-img {
-    /* margin: auto; */
     position: relative;
     right: 120px;
     top: 120px;
@@ -96,7 +143,7 @@ body {
 }
 
 
-
+/* CARD 2 STYLING */
 
 
 .weather-card2 {
@@ -105,7 +152,7 @@ body {
     height: 410px;
     position: relative;
     left: 650px;
-    bottom: 310px;
+    bottom: 420px;
     border-radius: 20px;
 }
 
@@ -128,7 +175,6 @@ body {
     background-color: white;
     height: 30px;
     width: 30px;
-    /* background-size: 30px; */
     border-radius: 20px;
     padding: 8px;
 }
@@ -169,14 +215,14 @@ body {
 }
 
 .wind-img2 {
-     width: 40px; 
-    height: 40px; 
+    width: 40px;
+    height: 40px;
     position: relative;
     top: 155px;
     left: 200px;
 }
 
-.wind-time {
+.wind-time2 {
     font-size: 17px;
     position: relative;
     left: 250px;
@@ -184,7 +230,7 @@ body {
     color: white;
 }
 
-.wind-speed {
+.wind-speed2 {
     font-size: 14px;
     color: white;
     position: relative;
@@ -193,6 +239,7 @@ body {
 }
 
 
+/* CARD 3 STYLING */
 
 
 .weather-card3 {
@@ -203,6 +250,96 @@ body {
     margin: auto;
     position: relative;
     right: 60px;
-    bottom: 665px;
+    bottom: 760px;
     border-radius: 20px;
+}
+
+.search-bar3 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    color: grey;
+}
+
+.search-icon3 {
+    color: grey;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.cloudy-sun-img {
+    position: relative;
+    left: 80px;
+    top: 95px;
+    width: 170px;
+    height: 80px;
+}
+
+.weather-temp3 {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 95px;
+    left: 115px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.weather-location3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 95px;
+    left: 85px;
+    font-family: sans-serif;
+}
+
+.humidity-img3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+.humidity-temp3 {
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 110px;
+    left: 80px;
+}
+
+.wind-img3 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+
+.wind-time3 {
+    font-size: 17px;
+    position: relative;
+    left: 250px;
+    top: 30px;
+    color: white;
+}
+
+.wind-speed3 {
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 245px;
+    top: 30px;
 }
